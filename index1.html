@@ -9,17 +9,20 @@
     <p id="d1">0</p>
     <p id="d2">0</p>
     <p id="d3">0</p>
+    <p id="d4">0</p>
     <button onclick="click1()">CLICK  ME</button>
     <script>
-        var a=25;//global variable-passport
+        var x=300;//global variable-passport
+        var z= 100;//global variable-passport
         function click1()
         {
-          var b=75;//local variable-ID card
-         document.getElementById("d1").innerHTML=a+b;
-         
+          var y=200;//local variable-ID card
+         document.getElementById("d1").innerHTML=x*y;
+         document.getElementById("d3").innerHTML =x%y;
         }
-        document.getElementById("d2").innerHTML = a;
-        document.getElementById("d3").innerHTML = b;
+        document.getElementById("d2").innerHTML =x;
+        document.getElementById("d4").innerHTML = z;
+        
     </script>
 </body>
 </html>
